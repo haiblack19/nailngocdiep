@@ -1,12 +1,12 @@
 import { motion } from "motion/react";
 import { Sparkles, Heart, Award, ShieldCheck, ArrowRight } from "lucide-react";
+import specialImage from "../assets/images/special_diep_nail.jpg";
 
 interface SpecialShowcaseProps {
   onBookClick: () => void;
 }
 
 export default function SpecialShowcase({ onBookClick }: SpecialShowcaseProps) {
-  const specialImage = "/src/assets/images/special_diep_nail.jpg";
 
   return (
     <section

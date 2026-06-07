@@ -1,5 +1,6 @@
 import { SERVICES } from "../data";
 import { Instagram, Facebook, Phone, MapPin, Clock, MessageSquare, ShieldCheck } from "lucide-react";
+import founderImage from "../assets/images/about_founder_diep_graduation.jpg";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -13,7 +14,7 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="flex items-center gap-4">
               <img
-                src="/src/assets/images/about_founder_diep_graduation.jpg"
+                src={founderImage}
                 alt="Chủ shop Ngọc Diệp"
                 className="h-16 w-16 rounded-full object-cover border border-brand-accent shadow-sm"
               />

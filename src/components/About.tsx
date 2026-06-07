@@ -1,8 +1,8 @@
 import { motion } from "motion/react";
 import { Check, Heart, ShieldCheck, Sparkles, Award } from "lucide-react";
+import salonImage from "../assets/images/about_salon_interior_1780848352242.png";
 
 export default function About() {
-  const salonImage = "/src/assets/images/about_salon_interior_1780848352242.png";
 
   const features = [
     {

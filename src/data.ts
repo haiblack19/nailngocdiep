@@ -1,5 +1,14 @@
 import { ServiceItem, GalleryItem, ReviewItem } from "./types";
 
+import gallery1 from "./assets/images/gallery_1_minimalist.jpg";
+import gallery2 from "./assets/images/gallery_2_korean.png";
+import gallery3 from "./assets/images/gallery_3_luxury.jpg";
+import gallery4 from "./assets/images/gallery_4_feminine.jpg";
+import gallery5 from "./assets/images/gallery_5_nail_art.jpg";
+import gallery6 from "./assets/images/gallery_6_ethereal.png";
+import gallery7 from "./assets/images/gallery_7_minimalist.png";
+import gallery8 from "./assets/images/gallery_8_spa.jpg";
+
 export const SERVICES: ServiceItem[] = [
   {
     id: "son-gel",
@@ -60,56 +69,56 @@ export const SERVICES: ServiceItem[] = [
 export const GALLERY: GalleryItem[] = [
   {
     id: "g1",
-    url: "/src/assets/images/gallery_1_minimalist.jpg",
+    url: gallery1,
     title: "Creamy Neutral Nails",
     category: "Minimalist",
     aspectRatio: "aspect-[3/4]"
   },
   {
     id: "g2",
-    url: "/src/assets/images/gallery_2_korean.png",
+    url: gallery2,
     title: "Abstract Line Art Nails",
     category: "Korean Art",
     aspectRatio: "aspect-[4/3]"
   },
   {
     id: "g3",
-    url: "/src/assets/images/gallery_3_luxury.jpg",
+    url: gallery3,
     title: "French Ombre With Gold Leaf",
     category: "Luxury",
     aspectRatio: "aspect-square"
   },
   {
     id: "g4",
-    url: "/src/assets/images/gallery_4_feminine.jpg",
+    url: gallery4,
     title: "Soft Peach Aesthetic",
     category: "Feminine",
     aspectRatio: "aspect-[3/4]"
   },
   {
     id: "g5",
-    url: "/src/assets/images/gallery_5_nail_art.jpg",
+    url: gallery5,
     title: "Japanese Pearl Accents",
     category: "Nail Art",
     aspectRatio: "aspect-[3/4]"
   },
   {
     id: "g6",
-    url: "/src/assets/images/gallery_6_ethereal.png",
+    url: gallery6,
     title: "Celestial Astrology Design",
     category: "Ethereal",
     aspectRatio: "aspect-square"
   },
   {
     id: "g7",
-    url: "/src/assets/images/gallery_7_minimalist.png",
+    url: gallery7,
     title: "Milky White Elegance",
     category: "Minimalist",
     aspectRatio: "aspect-[4/3]"
   },
   {
     id: "g8",
-    url: "/src/assets/images/gallery_8_spa.jpg",
+    url: gallery8,
     title: "Luxury Rose Pedicure Massage",
     category: "Spa Care",
     aspectRatio: "aspect-[3/4]"

@@ -1,13 +1,12 @@
 import { motion } from "motion/react";
 import { Sparkles, Calendar, Image as ImageIcon, ArrowDown } from "lucide-react";
+import heroImage from "../assets/images/hero_nail_art_luxury_1780848329826.png";
 
 interface HeroProps {
   onBookClick: () => void;
 }
 
 export default function Hero({ onBookClick }: HeroProps) {
-  // Let's use the precise image path we generated earlier
-  const heroImage = "/src/assets/images/hero_nail_art_luxury_1780848329826.png";
 
   return (
     <section
