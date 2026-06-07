@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Manrope", "Inter", sans-serif;
+  
+  --color-brand-bg-primary: #FFFDFB;
+  --color-brand-bg-secondary: #F8F4F1;
+  --color-brand-text-primary: #1D1D1F;
+  --color-brand-text-secondary: #6B6B6B;
+  --color-brand-accent: #D4A373;
+  --color-brand-gold: #C28F5A;
+  --color-brand-rose: #F7E7E2;
+  
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-float-slow: float 9s ease-in-out infinite;
+  --animate-float-reverse: float-reverse 7s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-10px) scale(1.02); }
+}
+
+@keyframes float-reverse {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(10px) scale(0.98); }
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-bg-primary);
+  color: var(--color-brand-text-primary);
+}
+
+::selection {
+  background-color: var(--color-brand-rose);
+  color: var(--color-brand-text-primary);
+}
+
+/* Custom scrollbar for brand luxury style */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-accent);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-gold);
+}

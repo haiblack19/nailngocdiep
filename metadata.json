@@ -1,0 +1,6 @@
+{
+  "name": "Ngọc Diệp Nail Studio",
+  "description": "Premium luxury landing page for Ngọc Diệp Nail Studio - Chăm sóc móng nghệ thuật cao cấp",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
